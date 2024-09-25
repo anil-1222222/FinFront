@@ -1,12 +1,42 @@
-<body>
-    <form class="box" >
-         <h2>AGENT LOGIN</h2>
-         <div class="inputbox">
-            <input type="text" name="username" placeholder="Email Id" >
-         </div>
-         <div class="inputbox">
-            <input type="password" name="password" placeholder="Password">
-         </div>
-         <input type="submit" value="Login">
-    </form>
+<app-header></app-header>
+<!-- <div id="sect1"></div> -->
+<!-- <div class="container"> -->
+<router-outlet></router-outlet>
+
+
+<!-- <div class="admin-main"> -->
+    <!-- //ched code -->
+    <body>
+   <div class="box">
+  
+    <div class="form">
+   
+   <!-- mat ched code -->
+ 
+
+        <form #f="ngForm">
+
+            <h2>AGENT LOGIN</h2>
+    
+             <div class="inputbox">
+                <label for="username"></label>
+                <input type="UserName" id="username" name="username" 
+                    class="searchTextField" placeholder="Enter Username"> 
+                    <i></i>
+                </div>
+
+                <div class="inputbox">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" 
+                class="searchTextField" placeholder="Enter Password">
+                <i></i>
+            </div>
+
+                <input type="submit" value="Login" class="actionBtn">
+           
+        
+    </form> 
+
+</div>
+</div>
 </body>
