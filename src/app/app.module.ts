@@ -6,16 +6,18 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CreatecontactComponent } from './createcontact/createcontact.component';
-import { ContactlistComponent } from './contactlist/contactlist.component';
-import { ContacteditComponent } from './contactedit/contactedit.component';
+import { HomeComponent } from './home/home.component';
+import { AdminComponent } from './admin/admin.component';
+import { UserComponent } from './user/user.component';
+import { AgentComponent } from './agent/agent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreatecontactComponent,
-    ContactlistComponent,
-    ContacteditComponent
+    HomeComponent,
+    AdminComponent,
+    UserComponent,
+    AgentComponent
   ],
   imports: [
     BrowserModule,
